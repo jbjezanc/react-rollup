@@ -1,0 +1,35 @@
+{
+    "name": "react-rollupjs-bundling",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:dev": "npx webpack --config webpack.dev.config.js",
+        "build:prod": "npx webpack --config webpack.prod.config.js",
+        "serve": "node server.js",
+        "rollup:build": "rollup --config"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.26.0",
+        "@babel/preset-env": "^7.26.0",
+        "@babel/preset-react": "^7.26.3",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^28.0.2",
+        "@rollup/plugin-html": "^1.1.0",
+        "@rollup/plugin-node-resolve": "^16.0.0",
+        "@rollup/plugin-replace": "^6.0.2",
+        "@rollup/plugin-url": "^8.0.2",
+        "rollup": "^4.30.1",
+        "rollup-plugin-css-only": "^4.5.2",
+        "rollup-plugin-livereload": "^2.0.5",
+        "rollup-plugin-serve": "^1.1.1"
+    }
+}
